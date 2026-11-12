@@ -1,6 +1,6 @@
 import joblib
 import pandas as pd
-from data_loader import load_data
+from src.data_loader import load_data
 
 # Load saved model
 model = joblib.load("models/house_price_model.joblib")
