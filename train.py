@@ -12,8 +12,8 @@ from sklearn.metrics import (
     r2_score
 )
 
-from data_loader import load_data
-from preprocessing import create_preprocessor
+from src.data_loader import load_data
+from src.preprocessing import create_preprocessor
 
 # Load dataset
 df = load_data()
